@@ -1,0 +1,11 @@
+@PrzykładowyKolos2v2_HostAddress = http://localhost:5063
+
+
+PUT http://localhost:5063/api/repairs/1/cancel
+Content-Type: application/json
+
+{
+  "statusName": "In Progress"
+}
+
+###
